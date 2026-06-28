@@ -1,0 +1,14 @@
+AWS Well-Architected RAG Assistant - Sample Conversations
+==========================================================
+
+Ingestion Stats:
+  Documents : 5 AWS Well-Architected Pillar whitepapers
+  Pages     : 1,019
+  Chunks    : 2,749
+  Embedding : text-embedding-3-small (OpenAI)
+  Index     : FAISS (faiss_index/)
+
+==========================================================
+Test 1 - Direct question (Reliability Pillar)
+==========================================================
+You: How should I design for high availability on AWS?
